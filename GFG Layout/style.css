@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: green;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+}
+
+h1,
+h2 {
+    color: green;
+}
+
+header {
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav {
+    align-self: flex-start;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+header,
+nav {
+    background-color: brown;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+}
+
+.main-aside-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    width: 70%;
+    height: 100%;
+}
+
+aside {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    height: 100%;
+}
+
+.image {
+    height: 100px;
+    background-color: chartreuse;
+    margin: 20px 20px 20px 0px;
+}
+
+article,
+section {
+    margin-top: 15px;
+    margin-left: 10px;
+}
