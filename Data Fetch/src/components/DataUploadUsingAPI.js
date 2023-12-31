@@ -21,7 +21,7 @@ function DataUploadUsingAPI() {
 
     return (<form onSubmit={inputHandler} >
         <input type='text' placeholder="username" value={userName} onChange={(event) => setUserName(event.target.value)} />
-        <input type='text' placeholder="password" value={password} onChange={(event) => setPassword(event.target.value)} />
+        <input type='password' placeholder="password" value={password} onChange={(event) => setPassword(event.target.value)} />
         <input type='submit' />
     </form>);
 }
