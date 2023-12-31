@@ -1,10 +1,14 @@
 import DataFetchUsingAPI from "./components/DataFetchUsingAPI";
+import DataUploadUsingAPI from "./components/DataUploadUsingAPI";
 
 import "./App.css";
 
 function App() {
   return (
-    <DataFetchUsingAPI />
+    <>
+      <DataUploadUsingAPI />
+      <DataFetchUsingAPI />
+    </>
   );
 }
 
